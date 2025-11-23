@@ -1,4 +1,157 @@
-@media only screen and (max-width:425px) {
-    
+@media only screen and (max-width:576px) {
+
+    body{
+        width:536px;
+        margin:0px auto;
+    }
+    .nav-btn{
+        display:none;
+    }
+    .nav-bar{
+        display:block;
+        font-size:24px;
+    }
+
+    .banner{
+        flex-direction: column;
+        gap:48px;
+    }
+
+    .banner-left{
+        width:100%; 
+    }
+
+    .banner-left h1{
+        font-size:2rem;
+        line-height:40px ;
+    }
+     .banner-left span{
+        font-size:4rem;
+    }
+    .banner-left p{
+        width:270px;
+        font-size: 1rem;
+        line-height: 24px;
+    }
+   .banner-350{
+     bottom:250px;
+     left:-2px;
+   }
+
+   .banner-500{
+       top:50px;
+    right:-20px;
+   }
+   .banner-right img{
+    width:100%;
+    height:auto;
+   }
+   .habit-cards{
+    flex-direction: column;
+    gap:20px;
+   }
+   .habit-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+     .habit-card P{
+    width:200px;
+    text-align: center;
+   }
+
+    .habit-card img{
+    width:35%;
+    height:auto;
+}
+
+.habit-title p{
+    width:300px;
+    text-align: center;
+    margin:10px auto;
+    line-height: 20px;
 
 }
+
+.run-mile{
+    flex-direction:column;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.run-title button{
+    width:95%;
+}
+.run-img {
+  width:80%;
+  height:200px;
+  margin-bottom: 20px;
+  background-size:150%;
+    
+}
+/* .......bmi-style........ */
+
+.bmi-contents{
+    position: relative;
+    width:100vw;
+    right:3.5   vw;
+    box-sizing: border-box;
+}
+
+.bmi-title p{
+    width:400px;   
+}
+.bmi-content{
+    flex-direction: column;
+    gap:35px;
+    margin-left:0px;
+}
+
+.bmi-chart{
+    width:98%;
+   margin:35px 10px;
+
+}
+table th, td{
+     width:230px;
+}
+.bmi-calculator{
+    width:95%;
+    margin:35px 10px;
+}
+
+/* ----team-----*/
+.team-container img{
+    width:480px;
+    height: auto;
+}
+.team-container{
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+.img-tex{
+    bottom: -16px;
+    left: 60px;
+}
+
+/*--------about----------*/
+.about{
+    width:98vw;
+    margin:0px;
+}
+.about-content{
+    flex-direction:column;
+    margin-left: 10px;
+    gap:30px;
+}
+.about-right{
+    flex-direction: column;
+}
+hr{
+    width:92vw;
+}
+
+}  
